@@ -20,15 +20,15 @@ export default function Header() {
 
   return (
     <header className="bg-plum-900 text-white sticky top-0 z-50 shadow-lg">
-      <div className="max-w-6xl mx-auto px-4 py-5 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3 group">
           <Image
             src="/images/eclair-affaire-logo-light.png"
             alt="Éclair Affaire Weston"
-            width={64}
-            height={46}
+            width={90}
+            height={65}
             unoptimized
-            className="object-contain opacity-90 group-hover:opacity-100 transition-opacity"
+            className="object-contain opacity-90 group-hover:opacity-100 transition-opacity drop-shadow-[0_0_8px_rgba(78,181,165,0.4)]"
           />
           <div className="flex flex-col leading-none">
             <span className="text-teal-300 font-serif text-lg tracking-widest uppercase group-hover:text-teal-200 transition-colors">
