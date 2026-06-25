@@ -23,7 +23,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-        <link rel="preload" as="image" href="/images/eclair-affaire-store.jpg" />
+        <link rel="preload" as="image" href="/images/eclair-affaire-store-mobile.webp" media="(max-width: 768px)" />
+        <link rel="preload" as="image" href="/images/eclair-affaire-store.webp" media="(min-width: 769px)" />
         <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
       </head>
       <body className="min-h-screen flex flex-col">

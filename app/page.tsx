@@ -20,14 +20,17 @@ export default function HomePage() {
 
       {/* ── Hero ── */}
       <section className="relative h-[85vh] min-h-[560px] overflow-hidden">
-        <Image
-          src="/images/eclair-affaire-store.jpg"
-          alt="Éclair Affaire Weston interior — Art Deco café with pink and navy velvet armchairs"
-          fill
-          unoptimized
-          priority
-          className="object-cover object-center"
-        />
+        <picture>
+          <source media="(max-width: 768px)" srcSet="/images/eclair-affaire-store-mobile.webp" type="image/webp" />
+          <source srcSet="/images/eclair-affaire-store.webp" type="image/webp" />
+          <img
+            src="/images/eclair-affaire-store.webp"
+            alt="Éclair Affaire Weston interior — Art Deco café with pink and navy velvet armchairs"
+            fetchPriority="high"
+            decoding="async"
+            className="absolute inset-0 w-full h-full object-cover object-center"
+          />
+        </picture>
         <div className="absolute inset-0 bg-gradient-to-r from-plum-950/90 via-plum-900/70 to-transparent" />
         <div className="relative h-full flex items-center">
           <div className="max-w-6xl mx-auto px-6 w-full">
