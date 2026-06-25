@@ -9,8 +9,9 @@ const NAV_LINKS = [
   { href: '/', label: 'Home' },
   { href: '/artisan-french-eclairs-weston-fl/', label: 'Artisan Éclairs' },
   { href: '/classic-choux-pastry-delights-weston-fl/', label: 'Choux Pastry' },
-  { href: '/custom-french-pastry-orders-weston-fl/', label: 'Custom Orders' },
+  { href: '/custom-french-pastry-orders-weston-fl/', label: 'Custom Orders & Catering' },
   { href: '/faq-french-eclairs-choux-pastry-bakery/', label: 'FAQ' },
+  { href: '/blog/', label: 'Blog' },
   { href: '#contact', label: 'Visit Us' },
 ];
 
