@@ -12,6 +12,8 @@ const SLUGS = [
   'custom-french-pastry-orders-weston-fl',
   'weston-fl-french-pastry-bakery',
   'sunrise-fl-french-pastry-bakery',
+  'contact',
+  'blog',
   'faq-french-eclairs-choux-pastry-bakery',
   'what-are-french-eclairs',
   'how-is-choux-pastry-made',

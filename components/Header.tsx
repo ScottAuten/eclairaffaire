@@ -12,7 +12,7 @@ const NAV_LINKS = [
   { href: '/custom-french-pastry-orders-weston-fl/', label: 'Custom Orders & Catering' },
   { href: '/faq-french-eclairs-choux-pastry-bakery/', label: 'FAQ' },
   { href: '/blog/', label: 'Blog' },
-  { href: '#contact', label: 'Visit Us' },
+  { href: '/contact/', label: 'Visit Us' },
 ];
 
 export default function Header() {
